@@ -1,0 +1,45 @@
+body{
+	background-color: #FFB53C;
+}
+.gallery{
+	width: 100%;
+	padding-top: 5vw;
+	height: 95vw;
+	background-color:#FFB53C ;
+}
+.gallery h1{
+	margin: 0;
+	margin-bottom: 2vw;
+	padding-top: 3vw;
+	padding-bottom: 3vw;
+	color: black;
+	font-family: 'Leckerli One';
+	background-color: #FFB53C;
+	text-align: center;
+	font-size: 6vw;
+}
+
+.gallery h3{
+	#padding-left: 5%;
+	width:100%;
+	color: #5D1813;
+	font-size: 4vw;
+	position: relative;
+	float:left;
+	margin-bottom: 2vw;
+	margin-top: 5vw;
+	text-align: center;
+	font-family: 'Copse';
+}
+
+.gphoto{
+	width: 23%;
+	height: 15vw;
+	margin-left: 1%;
+	margin-right: 1%;
+	margin-top: 2vw;
+	margin-bottom: 2vw;
+	float:left;
+	position: relative;
+	box-shadow: 0 0 0.5vw black;
+}

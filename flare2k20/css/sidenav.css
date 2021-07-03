@@ -1,0 +1,87 @@
+html,body{
+	width:100%;
+	margin:0px;
+	padding:0px;
+}
+
+.navcls{
+	overflow: hidden;
+	width: 100%;
+	height: 5vw;
+	z-index:15;
+	position: fixed;
+	top: 0;
+	padding-right: 20px;
+	background-color: #5D1813;
+	#background: linear-gradient(to bottom, white , silver);
+	box-shadow: 0 0 0.5vw black;
+	transition: margin-left 0.5s,width 0.5s;
+	transform: translateY(0);
+}
+
+#sideicon{
+	margin-left: 3vw;
+	margin-top: 1vw;
+	color: #FFB53C;
+	font-size: 3vw;
+	float: left;
+	cursor: pointer;
+}
+#sideicon:hover{
+	color: white;
+}
+
+.sidenavcls {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 15;
+  top: 0;
+  left: 0;
+  background-color: #5D1813;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 6vw;
+  font-family: 'Bebas Neue';
+  box-shadow: 0 0 0.5vw black;
+}
+
+.sidenavcls .closebtn {
+  position: absolute;
+  top: 0;
+  right: 2vw;
+  font-size: 4vw;
+  margin-left: 50px;
+}
+
+.sidenavcls a {
+  padding: 1vw 1vw 1vw 3vw;
+  margin-top:1vw;
+  margin-bottom: 1vw;
+  text-decoration: none;
+  font-size: 2.5vw;
+  color: #FFB53C;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenavcls a:hover:not(.closebtn) {
+  color: #FFB53C;
+  background: linear-gradient(to right,#FFB53C,#FFB53C);
+  background-repeat: no-repeat;
+  background-size: 5% 95%;
+  background-position: 0 0;
+}
+.sidenavcls .closebtn:hover {
+  color: white;
+}
+
+#sidenav .active{
+  color: #5D1813;
+  background: linear-gradient(to right, #FFB53C ,#FFB53C);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: 0 0;
+}
+
+

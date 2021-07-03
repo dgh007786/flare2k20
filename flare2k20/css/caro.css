@@ -1,0 +1,57 @@
+.flare19car{
+	background-color: #FFB53C;
+	height: 45vw;
+	width: 100%;
+	z-index: 11;
+	position: relative;
+	padding-top: 5vw;
+	padding-bottom: 5vw;
+	overflow:hidden;
+}
+
+.slide {
+	position: absolute;
+	left: 150%;
+	width:60%;
+	height: 37vw;
+	opacity: 1;
+	transform: translateX(0);
+	will-change: transform;
+	transition-timing-function: ease-out;
+	
+}
+#activeslide{
+	left: 20%;
+	opacity:1;
+}
+#prevslide{
+	left: -45%;
+	filter:blur(4px);
+}
+#nextslide{
+	left: 85%;
+	filter:blur(4px);
+}
+
+.togallery{
+	position:absolute;
+	padding-top:0.5vw;
+	padding-bottom:0.5vw;
+	top: 80%;
+	left:43%;
+	font-size:2vw;
+	width: 10%;
+	text-align:center;
+	border-radius: 0.5vw;
+	color: #5D1813;
+	z-index: 12;
+	font-family:'Amaranth';
+	border-style: double;
+	border-color: #5D1813;
+	border-width: 0.5vw;
+	background: linear-gradient(to right bottom,rgba(192,192,192,0),rgba(102,102,102,0));
+}
+.togallery:hover{
+	background-color: #5D1813;
+	color: #FFB53C;
+}

@@ -1,0 +1,27 @@
+.eventred
+{
+	position:fixed; 
+	right:0; 
+	top:40%; 
+	height:8vw; 
+	width:12%; 
+	background-color:rgba(210,114,25,0.4); 
+	z-index:13; 
+	font-size:1.5vw;
+	padding:0;
+	margin:0;
+	font-family:'Graduate'; 
+	padding-right:2%;
+}
+.eventred h2{
+	margin:0;
+	width: 70%;
+	margin-left:15%;
+	margin-top:1.5vw;
+	padding:0;
+}
+
+.eventred a{
+	text-decoration: none;
+	color: black;
+}

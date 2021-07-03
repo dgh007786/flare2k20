@@ -1,0 +1,48 @@
+.aftermovie{
+	background-color: #FFB53C;
+	height: 45vw;
+	width: 100%;
+	z-index: 11;
+	position: relative;
+	padding-top: 10vw;
+	
+}
+.amtitle{
+	padding-left:1vw;
+	background-color: #5D1813;
+	border-top-right-radius: 2vw;
+	border-bottom-right-radius: 2vw;
+	width: 6%;
+	position: relative;
+	float: left;
+}
+.aftermovie h1{
+	margin-top:0px;
+	height: 35vw;
+	text-align: center;
+	color: #FFB53C;
+	margin-left:0.5vw;
+	font-size: 3.5vw;
+	font-family: 'Graduate';
+	writing-mode: vertical-rl;
+	transform: rotate(-180deg);
+	text-orientation: mixed;
+}	
+
+.amyt{
+	height: 35vw;
+	margin:0;
+	padding:0;
+	width: 80%;
+	position: relative;
+	float: left;
+	background-color: #FFB53C;
+}
+
+.amyt iframe{
+	margin-left: 22%;
+	margin-top: 5vw;
+	font-size: 1vw;
+	width: 60%;
+	height: 25vw;
+}

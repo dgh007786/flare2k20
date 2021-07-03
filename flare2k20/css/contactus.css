@@ -1,0 +1,70 @@
+body{
+	background-color: #FFB53C;
+}
+.contactus{
+	width: 100%;
+	padding-top: 5vw;
+	height: 80vw;
+	background-color: #FFB53C;
+}
+
+.contactus h1{
+	margin: 0;
+	margin-bottom: 2vw;
+	padding-top: 3vw;
+	padding-bottom: 3vw;
+	color: black;
+	font-family: 'Leckerli One';
+	background-color: #FFB53C;
+	text-align: center;
+	font-size: 5vw;
+}
+
+#map{
+    width: 100%;
+    height: 40vw;
+	margin-bottom:5vw;
+	background-color: #FFB53C;
+	text-align:center;
+}
+
+#map img{
+	width: 45%;
+	margin-top:5vw;
+	height: 30vw;
+	border: 0.3vw solid #5D1813;
+}
+
+.contus{
+	width: 49%;
+	float: left;
+	position:relative;
+	text-align:center;
+	margin-top: 2vw;
+	margin-bottom: 2vw;
+}
+
+.contactus h2{
+	font-size: 3vw;
+	font-family: 'Copse';
+	color: #5D1813;
+	margin-top: 0.5vw;
+}
+
+.contus h3{
+	font-size: 2.5vw;
+	font-family: 'Copse';
+	color: black;
+	margin-bottom:1vw;
+}
+
+.contus h4{
+	font-size: 2vw;
+	font-family: 'Copse';
+	margin:0;
+	margin-bottom:0.5vw;
+}
+
+#contus1{
+	border-right: 0.2vw solid black;
+}

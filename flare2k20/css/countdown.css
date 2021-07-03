@@ -1,0 +1,47 @@
+.countdowncls{
+	background-color: #5D1813;
+	height: 25vw;
+	width: 100%;
+	z-index: 11;
+	font-size: 4vw;
+	text-align: center;
+	position: relative;
+	margin-top:0;
+	padding-top: 2vw;
+	padding-bottom: 2vw;
+	padding-left:0;
+	font-family:'Leckerli One';
+}
+.countdowncls h4{
+	color: #FFB53C;
+	text-align: center;
+	margin-bottom: 4vw;
+}
+#d,#h,#m,#s{
+	height: 10vw;
+	width: 8vw;
+	margin-right: 3vw;
+	float:left;
+	position: relative;
+	z-index:12;
+}
+#d{
+	margin-left: 28vw;
+}
+#day, #hours, #minutes, #seconds{
+	background-color: yellow; 
+	width: 8vw;
+	color: black;
+	border-top-left-radius: 2vw;
+	border-top-right-radius: 2vw;
+	height: 5vw;
+	font-family: 'Ewert';
+}
+#d p, #h p, #m p, #s p{
+	color: #FFB53C;
+	font-size: 2vw;
+	margin: 0;
+	width: 8vw;
+	padding: 0;
+	font-family:'Galada';
+}

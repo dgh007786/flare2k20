@@ -1,0 +1,61 @@
+div {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    vertical-align: top;
+}
+#parallax {
+    display: block;
+}
+
+#par-0 {
+	background-color: #FFA11B;
+}
+#par-1 {
+    background-image: url('../images/parallax/flaresun.png');
+	background-repeat: no-repeat;
+	background-position: 10% -5vw;
+}
+
+#par-2 {
+    background-image: url('../images/parallax/clouds.png');
+	background-repeat: no-repeat;
+	background-position: 0 5vw;
+}
+#par-3 {
+    background-image: url('../images/parallax/drag.png');
+	background-repeat: no-repeat;
+	background-position: 70% 10vw;
+}
+
+#par-4 {
+    background-image: url('../images/parallax/castlemountain.png');
+	background-repeat: no-repeat;
+	background-size: 105% 70vw;
+}
+
+#par-5 {
+    background-image: url('../images/parallax/mountain1.png');
+	background-repeat: no-repeat;
+	background-size: 105% 70vw;
+}
+
+.par_layer {
+    background-position: bottom center;
+    background-size: auto 70vw;
+    background-repeat: no-repeat;
+    width: 100%;
+    position: absolute;
+}
+.parcls, .par_layer {
+    height: 70vw;
+}
+
+.par_layer.parallax {
+    position: fixed;
+}
+.parcls {
+    position: relative;
+    z-index: 10;
+}

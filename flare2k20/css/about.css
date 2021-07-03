@@ -1,0 +1,49 @@
+
+.aboutcls{
+	background-color: #FFB53C;
+	height: 45vw;
+	width: 100%;
+	z-index: 11;
+	position: relative;
+	margin-top:0;
+	padding-top: 10vw; 
+}
+#abt{
+	margin: 0;
+	background-color: #5D1813;
+	border-top-right-radius: 2vw;
+	border-bottom-right-radius: 2vw;
+	padding-left: 1vw;
+	height:35vw;
+	width: 6%;
+	float: left;
+}
+#abtpar{
+	width:80%;
+	height:40vw;
+	margin: 0;
+	float: left;
+	
+}
+.aboutcls h1{
+	margin-top:0px;
+	height: 35vw;
+	text-align: center;
+	color: #FFB53C;
+	margin-left:0.5vw;
+	font-size: 3.5vw;
+	font-family: 'Graduate';
+	writing-mode: vertical-rl;
+	transform: rotate(-180deg);
+	text-orientation: mixed;
+}
+
+.aboutcls p{
+	margin-top:0px;
+	margin-left: 15%;
+	margin-top: 3vw;
+	font-size: 2.2vw;
+	font-family: 'Amaranth';
+	text-align: left;
+	color: black;
+}
